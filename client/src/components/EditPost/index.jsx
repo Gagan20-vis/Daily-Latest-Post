@@ -93,7 +93,7 @@ export default function index() {
                     <input type="text" className="form-control" id="slug" name='slug' value={Slug} readOnly />
                     <h5 htmlFor="exampleInputEmail1" className="form-label mb-2 mt-4 ms-1">Content:</h5>
                     <Editor
-                        apiKey='9rmk6t96nzl2olzj24thkct8qsen05gu1ujoblsylapccoi0'
+                        apiKey={import.meta.env.VITE_EDITOR_API_KEY}
                         onInit={handleEditorInit}
                         initialValue={html}
                         init={{
