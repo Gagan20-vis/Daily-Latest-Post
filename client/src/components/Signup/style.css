@@ -1,0 +1,15 @@
+.signup{
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    background: #f3f3f7;
+    font-family: 'Poppins', sans-serif;
+}
+.signup a{
+    text-decoration: none;
+    transition: color 0.2s ease;
+    color: grey;
+}
+.signup a:hover{
+    color: black;
+}
